@@ -22,4 +22,3 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.de
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
-git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
