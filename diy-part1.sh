@@ -23,7 +23,6 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 rm -rf feeds/packages/lang/golang
+rm -rf feeds/packages/luci-app-alist
 git clone https://github.com/sbwml/packages_lang_golang -b 20.x feeds/packages/lang/golang
-git clone https://github.com/sbwml/luci-app-alist package/alist
-make menuconfig # choose LUCI -> Applications -> luci-app-alist
-make package/alist/luci-app-alist/compile V=s # build luci-app-alist
+git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
